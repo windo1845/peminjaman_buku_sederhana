@@ -37,13 +37,15 @@ Database sudah disediakan dalam project ini.
 ## 🧪 Testing API
 Gunakan Thunder Client / Postman:
 
-GET http://localhost:8000/api/books
-GET http://localhost:8000/api/books/AB12345
+## 🧪 Testing API
 
-POST http://localhost:8000/api/books/ZZ99999
-CONTOH : { "kode": "ZZ99999", "judul": "tes api", "tahun_terbit": 2024, "penulis": "Pak Guru", "stok_buku": 10 }
+GET http://localhost:8000/api/books <br>
+GET http://localhost:8000/api/books/AB12345 <br><br>
 
-PUT http://localhost:8000/api/books/ZZ99999
-CONTOH : { "kode": "ZZ99999", "judul": "UPDATE tes", "tahun_terbit": 2000, "penulis": "Bu Guru", "stok_buku": 20 }
+POST http://localhost:8000/api/books/ZZ99999 <br>
+CONTOH : { "kode": "ZZ99999", "judul": "tes api", "tahun_terbit": 2024, "penulis": "Pak Guru", "stok_buku": 10 } <br><br>
+
+PUT http://localhost:8000/api/books/ZZ99999 <br>
+CONTOH : { "kode": "ZZ99999", "judul": "UPDATE tes", "tahun_terbit": 2000, "penulis": "Bu Guru", "stok_buku": 20 } <br><br>
 
 DELETE http://localhost:8000/api/books/ZZ99999
